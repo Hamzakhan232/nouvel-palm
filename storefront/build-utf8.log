@@ -1,0 +1,39 @@
+﻿
+> fashion-starter@2.0.0 build
+> next build
+
+   Γû▓ Next.js 15.3.8
+   - Environments: .env
+   - Experiments (use with caution):
+     ┬╖ staticGenerationRetryCount: 3
+     ┬╖ staticGenerationMaxConcurrency: 1
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 36.0s
+   Linting and checking validity of types ...
+node.exe : 
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo              : NotSpecifi    ed: (:String) [],     
+RemoteException
+    + FullyQualifiedEr    rorId : NativeComm    andError
+ 
+Failed to compile.
+
+./src/app/api/debug/route.ts
+3:10  Error: 'sdk' is defined but never used.  
+@typescript-eslint/no-unused-vars
+
+./src/lib/data/fragrances.ts
+5:55  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+14:19  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+
+./src/lib/util/medusa-error.ts
+32:9  Error: 'descriptiveMessage' is never reassigned. Use 'const' 
+instead.  prefer-const
+
+info  - Need to disable some ESLint rules? Learn more here: 
+https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
