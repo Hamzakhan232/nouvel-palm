@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "yarn medusa db:migrate && yarn start",
+    "startCommand": "yarn medusa db:migrate && yarn seed && yarn start",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
