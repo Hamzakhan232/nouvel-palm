@@ -1,4 +1,4 @@
 [phases.install]
-cmds = ["npm install --legacy-peer-deps"]
+cmds = ["yarn install"]
 
 # cache-bust: 1
