@@ -41,7 +41,6 @@
     "awilix": "^8.0.1",
     "lodash": "^4.17.21",
     "meilisearch": "0.47.0",
-    "next": "15.2.8",
     "pg": "^8.13.3",
     "posthog-node": "^4.0.1",
     "react-dropzone": "^14.3.8",
